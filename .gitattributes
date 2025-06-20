@@ -1,0 +1,14 @@
+jp_data/dump.cs filter=lfs diff=lfs merge=lfs -text
+jp_data/il2cpp.h filter=lfs diff=lfs merge=lfs -text
+jp_data/script.json filter=lfs diff=lfs merge=lfs -text
+jp_data/stringliteral.json filter=lfs diff=lfs merge=lfs -text
+jp_data/BlueArchive.fbs filter=lfs diff=lfs merge=lfs -text
+
+global_data/dump.cs filter=lfs diff=lfs merge=lfs -text
+global_data/il2cpp.h filter=lfs diff=lfs merge=lfs -text
+global_data/script.json filter=lfs diff=lfs merge=lfs -text
+global_data/stringliteral.json filter=lfs diff=lfs merge=lfs -text
+global_data/BlueArchive.fbs filter=lfs diff=lfs merge=lfs -text
+
+jp_data/DummyDll/** filter=lfs diff=lfs merge=lfs -text
+global_data/DummyDll/** filter=lfs diff=lfs merge=lfs -text
